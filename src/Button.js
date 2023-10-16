@@ -1,8 +1,8 @@
 import React from 'react';
+//import { Button as ChakraButton, Button as AntButton, Button as MUIButton } from 'your-ui-libraries'; // Import UI components for each library
 import { Button as ChakraButton } from '@chakra-ui/react';
 import { Button as AntButton } from 'antd';
-import { Button as MUIButton } from '@material-ui/core';
-
+import { Button as MUIButton } from '@material-ui/core'
 const Button = ({ config }) => {
   const { uiLibrary, text, color } = config;
 

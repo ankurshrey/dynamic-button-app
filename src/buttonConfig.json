@@ -1,6 +1,15 @@
 {
-    "uiLibrary": "mui", 
-    "text": "Click Me",
-    "color": "primary"
-  }
-  
+  "components": [
+    {
+      "type": "button",
+      "uiLibrary": "ant",
+      "text": "Click Me",
+      "color": "primary"
+    },
+    {
+      "type": "input",
+      "uiLibrary": "chakra",
+      "placeholder": "Enter text"
+    }
+  ]
+}
